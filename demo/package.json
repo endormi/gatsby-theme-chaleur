@@ -1,6 +1,6 @@
 {
   "name": "demo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A demo site for the chaleur theme!",
   "main": "gatsby-config.js",
   "license": "MIT",

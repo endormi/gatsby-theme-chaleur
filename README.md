@@ -6,10 +6,13 @@
   <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">
     <img alt="npm-version" src="https://img.shields.io/npm/v/@endormi/gatsby-theme-chaleur?color=blue">
   </a>
+  <a href="https://github.com/endormi/gatsby-theme-chaleur/issues">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/endormi/gatsby-theme-chaleur">
+  </a>
 </p>
 
 <p align="center">
-This is my first `gatsby-theme` so this is highly experimental. 
+This is my first gatsby-theme so this is highly experimental. 
 Be sure to test this out and feature requests, issues and pull requests are highly appreciated.
 </p>
 
