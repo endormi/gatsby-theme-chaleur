@@ -1,7 +1,17 @@
-# Gatsby-Theme-Chaleur
+<h1 align="center">
+  Gatsby-Theme-Chaleur
+</h1>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">
+    <img alt="npm-version" src="https://img.shields.io/npm/v/@endormi/gatsby-theme-chaleur?color=blue">
+  </a>
+</p>
+
+<p align="center">
 This is my first `gatsby-theme` so this is highly experimental. 
 Be sure to test this out and feature requests, issues and pull requests are highly appreciated.
+</p>
 
 ## Installation
 
