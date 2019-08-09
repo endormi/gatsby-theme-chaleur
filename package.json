@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-theme-chaleur",
+  "version": "1.0.0",
+  "description": "Chaleur gatsby theme!",
+  "main": "gatsby-theme-chaleur/gatsby-config.js",
+  "private": true,
+  "scripts": {
+    "build": "yarn workspace demo build"
+  },
+  "workspaces": ["demo", "gatsby-theme-chaleur"]
+}

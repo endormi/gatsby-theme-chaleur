@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 30px;
+    font-family: Roboto, sans-serif;
+}
