@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Header, Main, Container } from "theme-ui";
+import { Layout, Header, Main, Container } from "./Theme/Theme";
 
 const ThemeLayout = ({ children }) => {
   return (

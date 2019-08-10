@@ -1,6 +1,6 @@
 export const Theme = {
     fonts: {
-        body: 'system-ui, Roboto, sans-serif',
+        body: 'Roboto, sans-serif',
         heading: 'Roboto, sans-serif',
       },
     colors: {

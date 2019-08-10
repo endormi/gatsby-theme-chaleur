@@ -1,6 +1,6 @@
 {
-  "name": "@endormi/gatsby-theme-chaleur",
-  "version": "0.0.4",
+  "name": "gatsby-theme-chaleur",
+  "version": "0.0.5",
   "description": "A Gatsby chaleur theme!",
   "main": "gatsby-config.js",
   "author": "Endormi <contactendormi@gmail.com>",
@@ -21,12 +21,8 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@theme-ui/presets": "^0.2.30",
-    "@theme-ui/prism": "^0.2.29",
-    "@theme-ui/sidenav": "^0.2.32",
     "gatsby-plugin-page-creator": "^2.1.5",
-    "gatsby-plugin-theme-ui": "^0.2.29",
-    "theme-ui": "^0.2.31",
+    "gatsby-source-filesystem": "^2.1.9",
     "typeface-roboto": "^0.0.75"
   },
   "repository": {
