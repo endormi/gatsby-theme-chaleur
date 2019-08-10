@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-theme-chaleur",
-  "version": "0.0.5",
+  "name": "@endormi/gatsby-theme-chaleur",
+  "version": "0.0.4",
   "description": "A Gatsby chaleur theme!",
   "main": "gatsby-config.js",
   "author": "Endormi <contactendormi@gmail.com>",
