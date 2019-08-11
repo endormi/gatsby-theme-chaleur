@@ -1,6 +1,6 @@
 import React from "react";
 import "typeface-roboto";
-import "../components/css/style.css";
+import "../components/style.css";
 import image from "../img/gatsby.png";
 
 export default () => {

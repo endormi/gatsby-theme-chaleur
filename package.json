@@ -5,7 +5,7 @@
   "main": "gatsby-theme-chaleur/gatsby-config.js",
   "private": true,
   "scripts": {
-    "build": "yarn workspace demo build"
+    "build": "yarn workspace site build"
   },
-  "workspaces": ["demo", "gatsby-theme-chaleur"]
+  "workspaces": ["site", "gatsby-theme-chaleur"]
 }

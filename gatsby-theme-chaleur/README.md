@@ -39,6 +39,44 @@ module.exports = {
 
 Include the theme inside your sites `gatsby-config.js` and put in `__experimentalThemes` to use the theme.
 
+### Import components
+
+```jsx
+import { Header } from "gatsby-theme-chaleur";
+import { Container } from "gatsby-theme-chaleur";
+import { Border } from "gatsby-theme-chaleur";
+// for overriding colors
+import { colors } from "gatsby-theme-chaleur";
+
+export default () => {
+    return (
+        <div>
+            <Header>
+              <h1 style={{color: colors.primary}}>Text</h1>
+            </Header>
+            <Container>
+              <div>Contains stuff</div>
+            </Container>
+            <Border>
+              <p>Text in a border</p>
+            </Border>
+        </div>
+    )
+}
+```
+
+##### Colors
+
+```jsx
+export default {
+    primary: 'dodgerblue',
+    secondary: 'rebeccapurple',
+    regular: 'white',
+    fruit: 'tomato',
+    hp: 'hotpink',
+};
+```
+
 #### Running demo site
 
 ```sh

@@ -1,12 +1,16 @@
 import React from "react";
+import Header from "../components/Header/Header";
+import Border from "../components/Border/Border";
 import "typeface-roboto";
-import "../components/css/style.css";
+import "../components/style.css";
 
 export default () => {
     return (
         <div>
-            <h1>Hello World!</h1>
+            <Header><h1>Hello World!</h1></Header>
+            <Border>
             <p>This is an simple Hello World page!</p>
+            </Border>
         </div>
     )
 }
