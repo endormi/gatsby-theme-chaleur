@@ -80,7 +80,7 @@ export default {
 #### Running demo site
 
 ```sh
-yarn workspace demo start
+yarn workspace site start
 ```
 
 ## License
