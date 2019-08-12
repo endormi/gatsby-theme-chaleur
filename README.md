@@ -42,23 +42,24 @@ Include the theme inside your sites `gatsby-config.js` and put in `__experimenta
 ### Import components
 
 ```jsx
+import React from "react";
 import { Header } from "gatsby-theme-chaleur";
 import { Container } from "gatsby-theme-chaleur";
 import { Border } from "gatsby-theme-chaleur";
 // for overriding colors
 import { colors } from "gatsby-theme-chaleur";
-
+ 
 export default () => {
     return (
         <div>
             <Header>
-              <h1 style={{color: colors.primary}}>Text</h1>
+              <h1 style={{color: colors.regular}}>Text</h1>
             </Header>
             <Container>
-              <div>Contains stuff</div>
+              <div>Page stuff</div>
             </Container>
             <Border>
-              <p>Text in a border</p>
+              <p>Text inside a border</p>
             </Border>
         </div>
     )
@@ -74,6 +75,15 @@ export default {
     regular: 'white',
     fruit: 'tomato',
     hp: 'hotpink',
+    lp: 'lightpink',
+    ls: 'lightsalmon',
+    torq: 'turquoise',
+    be: 'beige',
+    dsg: 'darkseagreen',
+    dsb: 'darkslateblue',
+    dsgr: 'darkslategrey',
+    iv: 'ivory',
+    lv: 'lavender',
 };
 ```
 
