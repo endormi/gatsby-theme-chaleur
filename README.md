@@ -15,7 +15,7 @@
 This is my first gatsby-theme so this is highly experimental and a work-in-progress. 
 Be sure to test this out and feature requests, issues and pull requests are highly appreciated.
 
-<b>Disclaimer</b>: Some of these things might brake, just keep that in mind.
+<b>Disclaimer</b>: Some of these things might break, just keep that in mind.
 </p>
 
 ## Installation
