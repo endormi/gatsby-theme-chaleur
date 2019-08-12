@@ -2,9 +2,9 @@ import React from "react";
 import { Header } from "gatsby-theme-chaleur";
 import { Container } from "gatsby-theme-chaleur";
 import { Border } from "gatsby-theme-chaleur";
-// for overriding colors
+import { Button } from "gatsby-theme-chaleur";
 import { colors } from "gatsby-theme-chaleur";
- 
+
 export default () => {
     return (
         <div>
@@ -16,6 +16,9 @@ export default () => {
               <Border>
                 <p>Text inside a border</p>
               </Border>
+              <Button>
+                <p>Button</p>
+              </Button>
             </Container>
         </div>
     )
