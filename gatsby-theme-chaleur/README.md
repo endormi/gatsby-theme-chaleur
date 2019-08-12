@@ -33,7 +33,7 @@ yarn or yarn install
 ```jsx
 // gatsby-config.js
 module.exports = {
-    __experimentalThemes: ['gatsby-theme-chaleur']
+    __experimentalThemes: ['@endormi/gatsby-theme-chaleur']
 }
 ```
 
@@ -43,11 +43,12 @@ Include the theme inside your sites `gatsby-config.js` and put in `__experimenta
 
 ```jsx
 import React from "react";
-import { Header } from "gatsby-theme-chaleur";
-import { Container } from "gatsby-theme-chaleur";
-import { Border } from "gatsby-theme-chaleur";
+import { Header } from "@endormi/gatsby-theme-chaleur";
+import { Container } from "@endormi/gatsby-theme-chaleur";
+import { Border } from "@endormi/gatsby-theme-chaleur";
+import { Button } from "@endormi/gatsby-theme-chaleur";
 // for overriding colors
-import { colors } from "gatsby-theme-chaleur";
+import { colors } from "@endormi/gatsby-theme-chaleur";
  
 export default () => {
     return (
@@ -57,10 +58,13 @@ export default () => {
             </Header>
             <Container>
               <div>Page stuff</div>
+              <Border>
+                <p>Text inside a border</p>
+              </Border>
+              <Button>
+                <p>Button</p>
+              </Button>
             </Container>
-            <Border>
-              <p>Text inside a border</p>
-            </Border>
         </div>
     )
 }
