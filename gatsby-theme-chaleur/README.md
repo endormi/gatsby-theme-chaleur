@@ -116,6 +116,8 @@ Install dependencies:
 yarn or yarn install
 ```
 
+Run site:
+
 ```sh
 yarn workspace site start
 ```

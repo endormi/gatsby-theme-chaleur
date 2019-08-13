@@ -3,10 +3,10 @@ import colors from "../../design-tokens/colors";
 
 export default ({ children }) => (
     <div style={{
-        padding: '1.2rem',
+        padding: '1.5rem',
         backgroundColor: colors.primary,
         color: colors.regular,
-        marginBottom: '20px'
+        marginBottom: '25px',
     }}>
         {children}
     </div>

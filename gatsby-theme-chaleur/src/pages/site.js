@@ -1,3 +1,4 @@
+// Site to not break running demo site
 import React from "react";
 import Header from "../components/Header/Header";
 import Border from "../components/Border/Border";
@@ -9,8 +10,9 @@ export default () => {
     return (
         <div>
             <Navbar>
-                <li>Home</li>
-                <li>Base</li>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/page">Page</a>
             </Navbar>
             <Header><h1>Hello World!</h1></Header>
             <Border>
