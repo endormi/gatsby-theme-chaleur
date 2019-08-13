@@ -59,9 +59,7 @@ export default () => {
             <Navbar>
               <a href="/">Home</a>
               <a href="/about">About</a>
-              <a href="/page">Page</a>
-              <a link="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">NPM</a>
-              <a href="https://github.com/endormi/gatsby-theme-chaleur">GitHub</a>
+              <a href="/contact">Contact</a>
             </Navbar>
             <Header>
               <h1 style={{color: colors.regular}}>Text</h1>
