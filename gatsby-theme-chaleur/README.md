@@ -6,8 +6,11 @@
   <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">
     <img alt="npm-version" src="https://img.shields.io/npm/v/@endormi/gatsby-theme-chaleur?color=blue">
   </a>
+  <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">
+    <img alt="npm-downloads" src="https://img.shields.io/npm/dt/@endormi/gatsby-theme-chaleur">
+  </a>
   <a href="https://github.com/endormi/gatsby-theme-chaleur/issues">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/endormi/gatsby-theme-chaleur">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/endormi/gatsby-theme-chaleur?color=yellow">
   </a>
 </p>
 
@@ -22,12 +25,6 @@ Be sure to test this out and feature requests, issues and pull requests are high
 
 ```sh
 npm i @endormi/gatsby-theme-chaleur
-```
-
-Install dependencies:
-
-```sh
-yarn or yarn install
 ```
 
 ## Usage
@@ -50,7 +47,6 @@ import { Container } from "@endormi/gatsby-theme-chaleur";
 import { Border } from "@endormi/gatsby-theme-chaleur";
 import { Button } from "@endormi/gatsby-theme-chaleur";
 import { Navbar } from "@endormi/gatsby-theme-chaleur";
-// for overriding colors
 import { colors } from "@endormi/gatsby-theme-chaleur";
  
 export default () => {
