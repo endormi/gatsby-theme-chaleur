@@ -15,6 +15,10 @@
 </p>
 
 <p align="center">
+Gatsby theme for adding simple components. 
+</p>
+
+<p align="center">
 This is my first gatsby-theme so this is highly experimental and a work-in-progress. 
 Be sure to test this out and feature requests, issues and pull requests are highly appreciated.
 
