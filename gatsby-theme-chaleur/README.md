@@ -18,7 +18,7 @@
 This is my first gatsby-theme so this is highly experimental and a work-in-progress. 
 Be sure to test this out and feature requests, issues and pull requests are highly appreciated.
 
-<b>Disclaimer</b>: Some of these things might break, just keep that in mind.
+<b>Disclaimer</b>: Some of these components might break, just keep that in mind.
 </p>
 
 ## Installation
@@ -29,14 +29,14 @@ npm i @endormi/gatsby-theme-chaleur
 
 ## Usage
 
+Include the theme inside your sites `gatsby-config.js` and put in `__experimentalThemes` to use the theme.
+
 ```jsx
 // gatsby-config.js
 module.exports = {
     __experimentalThemes: ['@endormi/gatsby-theme-chaleur']
 }
 ```
-
-Include the theme inside your sites `gatsby-config.js` and put in `__experimentalThemes` to use the theme.
 
 ### Import components
 
@@ -58,7 +58,7 @@ export default () => {
               <a href="/contact">Contact</a>
             </Navbar>
             <Header>
-              <h1 style={{color: colors.regular}}>Text</h1>
+              <h1 style={{ color: colors.regular }}>Text</h1>
             </Header>
             <Container>
               <div>Page stuff</div>

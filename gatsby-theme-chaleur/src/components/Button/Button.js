@@ -6,7 +6,7 @@ export default ({ children }) => (
         backgroundColor: colors.primary,
         border: '1px solid black',
         color: colors.regular,
-        padding: '15px 20px',
+        padding: '10px 20px',
         marginTop: '10px',
         textAlign: 'center',
         textDecoration: 'none',
