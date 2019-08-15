@@ -21,8 +21,10 @@ Gatsby theme for adding simple components.
 <p align="center">
 This is my first gatsby-theme so this is highly experimental and a work-in-progress. 
 Be sure to test this out and feature requests, issues and pull requests are highly appreciated.
+</p>
 
-<b>Disclaimer</b>: Some of these components might break, just keep that in mind.
+<p align="center">
+NOTE: Some of these components might break, just keep that in mind. 
 </p>
 
 ## Installation
