@@ -6,7 +6,6 @@ export default ({ children }) => (
         padding: '1.5rem',
         backgroundColor: colors.primary,
         color: colors.regular,
-        marginBottom: '25px',
     }}>
         {children}
     </div>
