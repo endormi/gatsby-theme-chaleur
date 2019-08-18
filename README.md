@@ -90,15 +90,9 @@ export default {
     reg: 'rgb(64,64,64)',
     fruit: 'tomato',
     hp: 'hotpink',
-    lp: 'lightpink',
     ls: 'lightsalmon',
-    torq: 'turquoise',
-    be: 'beige',
-    dsg: 'darkseagreen',
     dsb: 'darkslateblue',
     dsgr: 'darkslategrey',
-    iv: 'ivory',
-    lv: 'lavender',
 };
 ```
 
