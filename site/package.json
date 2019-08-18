@@ -7,8 +7,8 @@
   "author": "Endormi",
   "private": true,
   "scripts": {
-    "start": "gatsby develop",
-    "build": "gatsby build"
+    "start": "gatsby clean && gatsby develop",
+    "build": "gatsby clean && gatsby build"
   },
   "dependencies": {
     "gatsby": "^2.13.53",

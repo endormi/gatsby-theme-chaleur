@@ -13,7 +13,7 @@ export default () => {
               <a href="/">Home</a>
               <a href="/about">About</a>
               <a href="/page">Page</a>
-              <a link="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">NPM</a>
+              <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">Gatsby-Theme</a>
               <a href="https://github.com/endormi/gatsby-theme-chaleur">GitHub</a>
             </Navbar>
             <Header>
