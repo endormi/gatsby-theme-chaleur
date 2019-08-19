@@ -11,6 +11,8 @@ export default () => {
         <div>
             <Navbar>
               <a href="/">Home</a>
+              <a href="/about">About</a>
+              <a href="/page" className="active">Page</a>
               <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">Gatsby-Theme-Chaleur</a>
             </Navbar>
             <Header>

@@ -6,6 +6,7 @@ export default () => {
         <div>
             <Navbar>
                 <a href="/">Home</a>
+                <a href="/about" className="active">About</a>
                 <a href="/page">Page</a>
                 <a href="/site">Site</a>
             </Navbar>

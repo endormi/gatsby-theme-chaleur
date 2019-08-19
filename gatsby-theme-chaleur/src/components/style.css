@@ -16,6 +16,11 @@ a {
     text-decoration: none;
 }
 
+.active {
+    background-color: rgb(107, 107, 107);
+    padding: 10px;
+}
+
 img {
     padding-top: 30px;
 }

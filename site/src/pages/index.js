@@ -10,7 +10,7 @@ export default () => {
     return (
         <div>
             <Navbar>
-              <a href="/">Home</a>
+              <a href="/" className="active">Home</a>
               <a href="/about">About</a>
               <a href="/page">Page</a>
               <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">Gatsby-Theme</a>
