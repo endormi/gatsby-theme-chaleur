@@ -59,7 +59,7 @@ export default () => {
     return (
         <div>
             <Navbar>
-              <a href="/">Home</a>
+              <a href="/" className="active">Home</a>
               <a href="/about">About</a>
               <a href="/contact">Contact</a>
             </Navbar>
