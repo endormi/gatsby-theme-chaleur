@@ -5,6 +5,7 @@ export default ({ children }) => (
         padding: '20px',
         margin: '12px 0 10px 0',
         border: '1px solid black',
+        textAlign: 'center',
     }}>
         {children}
     </div>
