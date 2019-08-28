@@ -52,17 +52,11 @@ import { Header } from "@endormi/gatsby-theme-chaleur";
 import { Container } from "@endormi/gatsby-theme-chaleur";
 import { Border } from "@endormi/gatsby-theme-chaleur";
 import { Button } from "@endormi/gatsby-theme-chaleur";
-import { Navbar } from "@endormi/gatsby-theme-chaleur";
 import { colors } from "@endormi/gatsby-theme-chaleur";
  
 export default () => {
     return (
         <div>
-            <Navbar>
-              <a href="/" className="active">Home</a>
-              <a href="/about">About</a>
-              <a href="/contact">Contact</a>
-            </Navbar>
             <Header>
               <h1 style={{ color: colors.regular }}>Text</h1>
             </Header>
