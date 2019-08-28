@@ -6,6 +6,4 @@ export default {
     fruit: 'tomato',
     hp: 'hotpink',
     ls: 'lightsalmon',
-    dsb: 'darkslateblue',
-    dsgr: 'darkslategrey',
 };

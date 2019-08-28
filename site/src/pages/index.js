@@ -3,6 +3,7 @@ import { Header } from "gatsby-theme-chaleur";
 import { Container } from "gatsby-theme-chaleur";
 import { Border } from "gatsby-theme-chaleur";
 import { Button } from "gatsby-theme-chaleur";
+import { Buttonlg } from "gatsby-theme-chaleur";
 import { colors } from "gatsby-theme-chaleur";
 
 export default () => {
@@ -22,6 +23,9 @@ export default () => {
               <Button>
                 <p>Button</p>
               </Button>
+              <Buttonlg>
+                <p>Button</p>
+              </Buttonlg>
             </Container>
         </div>
     )
