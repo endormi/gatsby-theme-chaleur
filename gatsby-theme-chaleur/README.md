@@ -48,6 +48,7 @@ module.exports = {
 
 ```jsx
 import React from "react";
+import { Layout } from "@endormi/gatsby-theme-chaleur";
 import { Header } from "@endormi/gatsby-theme-chaleur";
 import { Container } from "@endormi/gatsby-theme-chaleur";
 import { Border } from "@endormi/gatsby-theme-chaleur";
@@ -58,24 +59,26 @@ import { colors } from "@endormi/gatsby-theme-chaleur";
 export default () => {
     return (
         <div>
-            <Header>
-              <h1 style={{color: colors.regular}}>Text</h1>
-            </Header>
-            <Container>
-              <div>Page stuff</div>
-              <Border>
-                <p>Text inside a border</p>
-              </Border>
-              <Button>
-                <p>Button</p>
-              </Button>
-              <Button>
-                <p>Button</p>
-              </Button>
-              <Buttonlg>
-                <p>Button</p>
-              </Buttonlg>
-            </Container>
+            <Layout>
+              <Header>
+                <h1 style={{color: colors.regular}}>Text</h1>
+              </Header>
+              <Container>
+                <div>Page stuff</div>
+                <Border>
+                  <p>Text inside a border</p>
+                </Border>
+                <Button>
+                  <p>Button</p>
+                </Button>
+                <Button>
+                  <p>Button</p>
+                </Button>
+                <Buttonlg>
+                  <p>Button</p>
+                </Buttonlg>
+              </Container>
+            </Layout>
         </div>
     )
 }

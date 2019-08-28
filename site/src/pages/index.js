@@ -1,4 +1,5 @@
 import React from "react";
+import { Layout } from "gatsby-theme-chaleur";
 import { Header } from "gatsby-theme-chaleur";
 import { Container } from "gatsby-theme-chaleur";
 import { Border } from "gatsby-theme-chaleur";
@@ -9,6 +10,7 @@ import { colors } from "gatsby-theme-chaleur";
 export default () => {
     return (
         <div>
+          <Layout>
             <Header>
               <h1 style={{color: colors.regular}}>Text</h1>
             </Header>
@@ -27,6 +29,7 @@ export default () => {
                 <p>Button</p>
               </Buttonlg>
             </Container>
+            </Layout>
         </div>
     )
 }
