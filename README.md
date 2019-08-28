@@ -48,12 +48,12 @@ module.exports = {
 
 ```jsx
 import React from "react";
-import { Header } from "gatsby-theme-chaleur";
-import { Container } from "gatsby-theme-chaleur";
-import { Border } from "gatsby-theme-chaleur";
-import { Button } from "gatsby-theme-chaleur";
-import { Buttonlg } from "gatsby-theme-chaleur";
-import { colors } from "gatsby-theme-chaleur";
+import { Header } from "@endormi/gatsby-theme-chaleur";
+import { Container } from "@endormi/gatsby-theme-chaleur";
+import { Border } from "@endormi/gatsby-theme-chaleur";
+import { Button } from "@endormi/gatsby-theme-chaleur";
+import { Buttonlg } from "@endormi/gatsby-theme-chaleur";
+import { colors } from "@endormi/gatsby-theme-chaleur";
 
 export default () => {
     return (
