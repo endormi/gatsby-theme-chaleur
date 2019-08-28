@@ -6,12 +6,12 @@ export default ({ children }) => (
         backgroundColor: colors.primary,
         border: '1px solid black',
         color: colors.regular,
-        padding: '5px 20px',
+        padding: '10px 20px',
         marginRight: '5px',
         marginTop: '10px',
         textAlign: 'center',
         textDecoration: 'none',
-        fontSize: '18px',
+        fontSize: '20x',
         cursor: 'pointer',
     }}>
         {children}
