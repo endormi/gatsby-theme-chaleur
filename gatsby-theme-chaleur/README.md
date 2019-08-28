@@ -9,9 +9,6 @@
   <a href="https://www.npmjs.com/package/@endormi/gatsby-theme-chaleur">
     <img alt="npm-downloads" src="https://img.shields.io/npm/dt/@endormi/gatsby-theme-chaleur">
   </a>
-  <a href="https://github.com/endormi/gatsby-theme-chaleur/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/endormi/gatsby-theme-chaleur?color=yellow">
-  </a>
 </p>
 
 <p align="center">
