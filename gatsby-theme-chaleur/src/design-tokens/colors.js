@@ -1,9 +1,8 @@
 export default {
-    primary: 'dodgerblue',
+    primary: 'tomato',
     secondary: 'rebeccapurple',
     regular: 'white',
     reg: 'rgb(64,64,64)',
-    fruit: 'tomato',
     hp: 'hotpink',
     ls: 'lightsalmon',
 };

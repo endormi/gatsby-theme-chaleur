@@ -6,13 +6,12 @@ export default ({ children }) => (
         backgroundColor: colors.primary,
         border: '1px solid black',
         color: colors.regular,
-        padding: '5px 20px',
-        marginRight: '5px',
-        marginTop: '10px',
+        padding: '0 10px',
+        margin: '10px 0 10px 0',
         textAlign: 'center',
         textDecoration: 'none',
         display: 'inline-block',
-        fontSize: '18px',
+        fontSize: '14px',
         cursor: 'pointer',
     }}>
         {children}
