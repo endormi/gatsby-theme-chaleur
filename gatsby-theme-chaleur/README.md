@@ -28,12 +28,12 @@ npm i @endormi/gatsby-theme-chaleur
 
 ## Usage
 
-Include the theme inside your sites `gatsby-config.js` and put in `__experimentalThemes` to use the theme.
+Include the theme inside your sites `gatsby-config.js` and put in `plugins` to use the theme.
 
 ```jsx
 // gatsby-config.js
 module.exports = {
-    __experimentalThemes: ['@endormi/gatsby-theme-chaleur']
+    plugins: ['@endormi/gatsby-theme-chaleur']
 }
 ```
 
