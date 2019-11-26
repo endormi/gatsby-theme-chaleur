@@ -12,8 +12,7 @@
 </p>
 
 <p align="center">
-This is my first gatsby-theme so this is highly experimental and a work-in-progress. 
-Be sure to test this out and feature requests, issues and pull requests are highly appreciated.
+NO LONGER MAINTAINED
 </p>
 
 <p align="center">
